@@ -11,6 +11,7 @@ package serverwofacade;
  * @author sarun
  */
 public class ScheduleServer {
+    //start
     public void startBooting(){
 	System.out.println("Starts booting...");
     }
@@ -29,6 +30,7 @@ public class ScheduleServer {
     public void createSystemObjects(){
         System.out.println("Creating system objects...");
     }
+    //start after done
     public void releaseProcesses(){
         System.out.println("Releasing processes...");
     }
